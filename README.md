@@ -2,7 +2,7 @@
 
 # 🧠 LeetCode Solutions & DSA Archive
 
-[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/biswa16-dev/)
+[![LeetCode Profile](https://img.shields.io/badge/LeetCode-Profile-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/biswa_17/)
 [![GitHub Repo](https://img.shields.io/badge/Language-C++%20%7C%20Python%20%7C%20Java-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)](#)
 [![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen?style=for-the-badge)](#)
 
