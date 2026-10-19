@@ -35,10 +35,20 @@ This repository is an organized archive of my Data Structures and Algorithms pra
 ## 📚 Problem Solutions Index
 
 | # | Title | Solution | Difficulty | Category |
-|:---:|:---|:---:|:---:|:---:|
-| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++ / Python](./1-two-sum/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array, Hash Table |
-
-> *Tip: As you solve more problems, this index table serves as a quick roadmap for revisions before interview rounds.*
+|:---:|:---|:---:|:---:|:---|
+| 0001 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./1-two-sum/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array, Hash Table |
+| 0026 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [C++](./26-remove-duplicates-from-sorted-array/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array, Two Pointers |
+| 0075 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./75-sort-colors/) | <img src="https://img.shields.io/badge/Medium-FFC01E?style=flat-square&logoColor=white" /> | Array, Two Pointers, Sorting |
+| 0121 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Notes](./121-best-time-to-buy-and-sell-stock/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array, Dynamic Programming |
+| 0150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [C++](./150-evaluate-reverse-polish-notation/) | <img src="https://img.shields.io/badge/Medium-FFC01E?style=flat-square&logoColor=white" /> | Array, Math, Stack |
+| 0206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | [C++](./206-reverse-linked-list/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Linked List, Recursion |
+| 0215 | [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [C++](./215-kth-largest-element-in-an-array/) | <img src="https://img.shields.io/badge/Medium-FFC01E?style=flat-square&logoColor=white" /> | Array, Divide & Conquer, Sorting, Heap |
+| 0237 | [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [C++](./237-delete-node-in-a-linked-list/) | <img src="https://img.shields.io/badge/Medium-FFC01E?style=flat-square&logoColor=white" /> | Linked List |
+| 0347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./347-top-k-frequent-elements/) | <img src="https://img.shields.io/badge/Medium-FFC01E?style=flat-square&logoColor=white" /> | Array, Hash Table, Heap, Bucket Sort |
+| 0485 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | [C++](./485-max-consecutive-ones/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array |
+| 0912 | [Sort an Array](https://leetcode.com/problems/sort-an-array/) | [C++](./948-sort-an-array/) | <img src="https://img.shields.io/badge/Medium-FFC01E?style=flat-square&logoColor=white" /> | Array, Divide & Conquer, Sorting, Heap |
+| 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/) | [C++](./1677-matrix-diagonal-sum/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array, Matrix |
+| 1672 | [Richest Customer Wealth](https://leetcode.com/problems/richest-customer-wealth/) | [C++](./1791-richest-customer-wealth/) | <img src="https://img.shields.io/badge/Easy-00B8A3?style=flat-square&logoColor=white" /> | Array, Matrix |
 
 ---
 
@@ -49,8 +59,35 @@ leetcode-solutions/
 │
 ├── README.md                      # Repository dashboard & stats
 │
-├── 0001-two-sum/                  # Problem number and slug
+├── 1-two-sum/                     # Problem folder
 │   ├── README.md                  # Problem description, constraints & notes
-│   └── solution.cpp               # Accepted clean source code
+│   └── two-sum.cpp                # Accepted clean source code
 │
 └── ...
+```
+
+---
+
+## 🛠️ Tech Stack & Language Support
+
+<div align="center">
+
+| Language | Primary Focus |
+|:---:|:---|
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="30"/> **C++** | Core competitive programming & STL algorithms |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="30"/> **Python** | Quick prototyping & interview problem solving |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="30"/> **Java** | Object-Oriented DS implementations |
+
+</div>
+
+---
+
+## ⚙️ Automation
+
+Submissions are synchronized from **LeetCode** using **[LeetSync](https://github.com/Bhaveek/LeetSync)**. Whenever a solution is accepted on LeetCode, it generates a structured folder with the exact problem statement and solution code.
+
+---
+
+<div align="center">
+  <sub>Designed & Maintained with ❤️ by <a href="https://github.com/biswa16-dev">biswa16-dev</a></sub>
+</div>
